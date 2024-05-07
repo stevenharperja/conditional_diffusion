@@ -5,8 +5,8 @@ import torch
 import torch.nn as nn
 from tqdm import tqdm
 from torch import optim
-from utils import *
-from modules import UNet_conditional, EMA
+from conditional_diffusion.utils import *
+from conditional_diffusion.modules import UNet_conditional, EMA
 import logging
 from torch.utils.tensorboard import SummaryWriter
 

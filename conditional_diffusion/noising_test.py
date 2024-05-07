@@ -1,7 +1,7 @@
 import torch
 from torchvision.utils import save_image
-from ddpm import Diffusion
-from utils import get_data
+from conditional_diffusion.ddpm import Diffusion
+from conditional_diffusion.utils import get_data
 import argparse
 
 parser = argparse.ArgumentParser()
