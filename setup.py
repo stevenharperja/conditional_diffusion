@@ -15,7 +15,8 @@ setup(
                         'torch',
                         'torchvision',
                         'tqdm',
-                        'Pillow',           
+                        'Pillow',    
+                        'tensorboard',       
                       ],
 
     classifiers=[
